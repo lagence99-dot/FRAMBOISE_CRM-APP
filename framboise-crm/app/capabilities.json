@@ -1,0 +1,98 @@
+{
+  "assets": {},
+  "db": {
+    "rules": [
+      {
+        "path": "contacts",
+        "read": "owner",
+        "write": "owner"
+      },
+      {
+        "path": "messages",
+        "read": "owner",
+        "write": "owner"
+      },
+      {
+        "path": "profile",
+        "read": "owner",
+        "write": "owner"
+      },
+      {
+        "path": "projects",
+        "read": "owner",
+        "write": "owner"
+      },
+      {
+        "path": "rdv",
+        "read": "owner",
+        "write": "owner"
+      },
+      {
+        "path": "li",
+        "read": "owner",
+        "write": "owner"
+      },
+      {
+        "path": "limsg",
+        "read": "owner",
+        "write": "owner"
+      },
+      {
+        "path": "lposts",
+        "read": "owner",
+        "write": "owner"
+      },
+      {
+        "path": "wa",
+        "read": "owner",
+        "write": "owner"
+      },
+      {
+        "path": "wamsg",
+        "read": "owner",
+        "write": "owner"
+      },
+      {
+        "path": "wacamp",
+        "read": "owner",
+        "write": "owner"
+      },
+      {
+        "path": "sched",
+        "read": "owner",
+        "write": "owner"
+      }
+    ]
+  },
+  "downloads": {},
+  "mcp": {
+    "servers": [
+      {
+        "server": "Gmail",
+        "tools": [
+          "send_message",
+          "search_threads",
+          "get_thread",
+          "reply"
+        ]
+      },
+      {
+        "server": "host:claude_browser",
+        "tools": [
+          "navigate",
+          "get_page_text",
+          "preview_start"
+        ]
+      },
+      {
+        "server": "Parallel Search",
+        "tools": [
+          "web_search",
+          "web_fetch"
+        ]
+      }
+    ]
+  },
+  "sample": {},
+  "user": {}
+}
